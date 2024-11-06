@@ -1,0 +1,30 @@
+{
+    "active_skill_gems": [
+        {
+            "name" : "Cleave",
+            "description": "The character swings their weapon (or both weapons if dual wielding) in an arc, damaging monsters in an area in front of them. Only works with Axes and Swords.",
+            "primary_attr": "Strength",
+            "type": "Melee",
+            "required_strength": [6,98],
+            "required_dexterity": [4,68],
+            "required_intelligence": "0",
+            "mana_cost": [7, 13],
+            "required_item_type": ["One Hand Swords", "Thrusting One Hand Sword", "One Hand Axe", "Two Handed Sword", "Two Handed Axe"],
+            "scales_with": ["Attack", "AOE", "Melee"],
+            "additional": ["More Damage With Two Handed"]
+        },
+        {
+            "name" : "Cleave of Rage",
+            "description": "he character swings both their weapons in an arc, damaging monsters in an area in front of them. Requires dual wielding both an Axe and a Sword.",
+            "primary_attr": "Strength",
+            "type": "Melee",
+            "required_strength": [6,98],
+            "required_dexterity": [4,68],
+            "required_intelligence": "0",
+            "mana_cost": [7, 13],
+            "required_item_type": ["One Hand Swords", "Thrusting One Hand Sword", "One Hand Axe"],
+            "scales_with": ["Attack", "AOE", "Melee"],
+            "additional": ["Dual Wield Required", "Rage"]
+        }
+    ]
+}
